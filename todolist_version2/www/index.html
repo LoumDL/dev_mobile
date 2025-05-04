@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>ToDo List</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <form >
+                <label for="task">Ajouter une tache</label>
+                <input id="taskField" type="text" id ="task" placeholder="Nouvelle tache">
+                <input id="addButton" type="button" value="Ajouter">
+                <input id="resetButton" type="button" value="reinitialiser">
+            </form>
+        <div data-role="header">
+            <h1>En Cours</h1>
+        </div>
+            <ul id="tasklist" data-role="listview" data-inset="true">
+                <li>Tache 1</li>
+                <li class ="done">Tache 2</li>
+                <li>Tache 3</li>               
+            </ul>
+            <div data-role="header">
+                <h1>Terminee</h1>
+            </div>
+                <ul id="tasklist" data-role="listview" data-inset="true">
+                    <li>Tache 1</li>
+                    <li class ="done">Tache 2</li>
+                    <li>Tache 3</li>                   
+                </ul>
+
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>DIC &copy; 2025</h1>
+        </div>
+    </div>
+</body>
+</html>

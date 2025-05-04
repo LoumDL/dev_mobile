@@ -1,0 +1,14 @@
+h1, label {
+    text-align: center;
+}
+input, label {
+    display: block;
+    margin: 20px;
+    width: 80%;
+    height: 40px;
+    margin: auto ;
+    margin-top: 20px;
+}
+.resaltBox{
+    text-align: center;
+}
